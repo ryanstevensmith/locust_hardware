@@ -1,0 +1,7 @@
+# Build Instructions (Windows)
+1. Open Command Prompt in this folder
+2. pip install -r requirements.txt pyinstaller
+3. pyinstaller updater.spec
+4. The executable is written to dist\updater.exe
+
+Place bootloader.bin, partitions.bin and firmware.bin next to updater.exe before running it.

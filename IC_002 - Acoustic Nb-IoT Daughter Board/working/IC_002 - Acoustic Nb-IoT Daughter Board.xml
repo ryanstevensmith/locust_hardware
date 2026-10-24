@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch</source>
+    <date>28/01/2025 16:16:52</date>
+    <tool>Eeschema 7.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IC_002 - Acoustic Nb-IoT Daughter Board</title>
+        <company>Smith Robotics for Imperial College</company>
+        <rev>1.0</rev>
+        <date>2025-01-28</date>
+        <source>IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch</source>
+        <comment number="1" value="Drawn by Ryan Smith"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71d3ac3f-79a8-46fd-9aec-dcb81dd74cd7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <fields>
+        <field name="DigiKey">478-3877-2-ND</field>
+        <field name="MF">KYOCERA AVX</field>
+        <field name="Mouser">581-TAJB107M006R</field>
+        <field name="PN">TAJB107M006RNJ</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="DigiKey" value="478-3877-2-ND"/>
+      <property name="MF" value="KYOCERA AVX"/>
+      <property name="Mouser" value="581-TAJB107M006R"/>
+      <property name="PN" value="TAJB107M006RNJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92c0dda0-e11d-41f7-b288-95fc14f50755</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99f9e89f-51e0-4613-af80-510e76bda44c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a843cacc-0b7a-41f4-a912-1c17571f237d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b958d9d-8cb5-4415-8e56-a63a5b9f0f8f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbf9dc98-b100-4a48-94e7-283c50ba4ba5</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42322c8e-7516-47c4-b77e-5235ab59f49b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <fields>
+        <field name="DigiKey">478-3877-2-ND</field>
+        <field name="MF">KYOCERA AVX</field>
+        <field name="Mouser">581-TAJB107M006R</field>
+        <field name="PN">TAJB107M006RNJ</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="DigiKey" value="478-3877-2-ND"/>
+      <property name="MF" value="KYOCERA AVX"/>
+      <property name="Mouser" value="581-TAJB107M006R"/>
+      <property name="PN" value="TAJB107M006RNJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11a32d0c-645b-4f7f-acff-23b691a8cf49</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ab3a69a-d70c-4e8b-9fe8-19bd52203f06</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2b2e8b2-61ed-473d-b905-c3a4a18d3fc1</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce6a0962-f6bb-4d8e-9eec-a122c8715e2b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6b2af33-ba98-4b1e-9ac0-0a87e88e480d</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e3adaa3-072c-45e2-b9a1-2fe7bbc0836d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cec3a4b-7b97-443f-b6b0-2a8c72319bc3</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c29b4bf-af11-4223-b479-d4da841d7f7b</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>702de490-b2b4-452a-9099-b974ed0a6c31</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e1c72d-e084-4dad-885e-782d2236afc2</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9778b56d-ee5f-42e7-a38c-39eed1a5f9f5</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e79a36b0-e617-42a7-9b84-9ea8aef40d65</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>416fe8c1-1286-4cab-8a60-c63a5cd8792f</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17f8a72c-b07d-45db-bd32-c42005c245c5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>P6SMBJ5.0CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://diotec.com/request/datasheet/p6smbj65.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">4878-P6SMBJ5.0CATR-ND</field>
+        <field name="MF">Diotec</field>
+        <field name="Mouser">637-P6SMBJ5.0CA</field>
+        <field name="PN">P6SMBJ5.0CA</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="DigiKey" value="4878-P6SMBJ5.0CATR-ND"/>
+      <property name="MF" value="Diotec"/>
+      <property name="Mouser" value="637-P6SMBJ5.0CA"/>
+      <property name="PN" value="P6SMBJ5.0CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cbf3890-46b4-40d9-aae3-ab063b4b2afa</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>P6SMBJ5.0CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>https://diotec.com/request/datasheet/p6smbj65.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">4878-P6SMBJ5.0CATR-ND</field>
+        <field name="MF">Diotec</field>
+        <field name="Mouser">637-P6SMBJ5.0CA</field>
+        <field name="PN">P6SMBJ5.0CA</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="DigiKey" value="4878-P6SMBJ5.0CATR-ND"/>
+      <property name="MF" value="Diotec"/>
+      <property name="Mouser" value="637-P6SMBJ5.0CA"/>
+      <property name="PN" value="P6SMBJ5.0CA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a39437d5-436b-45f5-b39b-47e959062d14</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Blue</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">754-1804-2-ND</field>
+        <field name="MF">Kingbright</field>
+        <field name="Mouser">604-APTD1608VBCD</field>
+        <field name="PN">APTD1608VBC/D</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DigiKey" value="754-1804-2-ND"/>
+      <property name="MF" value="Kingbright"/>
+      <property name="Mouser" value="604-APTD1608VBCD"/>
+      <property name="PN" value="APTD1608VBC/D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6792d806-a706-48da-bbfa-a4d2b321a1e8</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>1A/32V</value>
+      <footprint>Fuse:Fuse_0603_1608Metric</footprint>
+      <fields>
+        <field name="DigiKey">P15124TR-ND</field>
+        <field name="MF">Panasonic</field>
+        <field name="Mouser">667-ERB-RE1R00V</field>
+        <field name="PN">P15124TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="PN" value="P15124TR-ND"/>
+      <property name="DigiKey" value="P15124TR-ND"/>
+      <property name="MF" value="Panasonic"/>
+      <property name="Mouser" value="667-ERB-RE1R00V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>579b33de-5488-4dce-ac81-44dc59a60a5a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SMA</value>
+      <footprint>SR_Antenna:CON-SMA-EDGE-S</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="DigiKey">CON-SMA-EDGE-S-ND</field>
+        <field name="MF">RF Solutions</field>
+        <field name="Mouser">223-CON-SMA-EDGE-S</field>
+        <field name="PN">CON-SMA-EDGE-S</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="DigiKey" value="CON-SMA-EDGE-S-ND"/>
+      <property name="MF" value="RF Solutions"/>
+      <property name="Mouser" value="223-CON-SMA-EDGE-S"/>
+      <property name="PN" value="CON-SMA-EDGE-S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d70106c-5e01-449b-be86-8b8fec078a5a</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>104224-0820</value>
+      <footprint>SR_Connectors:MOLEX_104224-0820</footprint>
+      <fields>
+        <field name="DigiKey">WM23749TR-ND</field>
+        <field name="MF">Molex</field>
+        <field name="Mouser">538-104224-0820</field>
+        <field name="PN">104224-0820</field>
+      </fields>
+      <libsource lib="SR_Connectors" part="104224-0820" description=""/>
+      <property name="MF" value="Molex"/>
+      <property name="PN" value="104224-0820"/>
+      <property name="Mouser" value="538-104224-0820"/>
+      <property name="DigiKey" value="WM23749TR-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3127e8a7-6f7c-468e-9348-2394551bb692</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>52207-1060</value>
+      <footprint>SR_Connectors:52207-1060</footprint>
+      <fields>
+        <field name="DigiKey">WM3753TR-ND</field>
+        <field name="LCSC">C3168739</field>
+        <field name="MF">Molex</field>
+        <field name="Mouser">538-52207-1060</field>
+        <field name="PN">52207-1060</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x10_MountingPin" description="Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C3168739"/>
+      <property name="PN" value="52207-1060"/>
+      <property name="DigiKey" value="WM3753TR-ND"/>
+      <property name="MF" value="Molex"/>
+      <property name="Mouser" value="538-52207-1060"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6227c20e-6efa-4c98-9310-b0fcc7e630e9</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DigiKey">-</field>
+        <field name="MF">-</field>
+        <field name="Mouser">-</field>
+        <field name="PN">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="DigiKey" value="-"/>
+      <property name="MF" value="-"/>
+      <property name="Mouser" value="-"/>
+      <property name="PN" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>009d9530-d2eb-408c-8acd-525a090d0644</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DigiKey">-</field>
+        <field name="MF">-</field>
+        <field name="Mouser">-</field>
+        <field name="PN">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="DigiKey" value="-"/>
+      <property name="MF" value="-"/>
+      <property name="Mouser" value="-"/>
+      <property name="PN" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb5cb8ec-1b05-4efb-9f49-7e2d4ff76fb8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fba08f9-c4a6-4bed-947f-c7a40e0065cf</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b631047-9d99-4f38-a65f-52734c1754c8</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6fdcf20-7730-4bb5-a77e-16c3494500cb</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6756110-ed6a-45a0-827a-baadf6d54a63</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db71a3b8-583d-43b4-a698-34cbb00b5d9a</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7164aa10-ed75-4d98-bd5c-29aaec44bf8d</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d714f50-13d7-49b6-90be-bbd21591d071</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e5f2e50-1f66-495f-a76d-566a6d4706ef</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20438826-ca71-4476-8a8c-a79c0da0ca60</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b112c16e-b186-400e-b7ed-a2024e219a3d</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <fields>
+        <field name="DigiKey">1727-BC817-QR-ND</field>
+        <field name="MF">Nexperia</field>
+        <field name="Mouser">771-BC817-QR</field>
+        <field name="PN">BC817-QR</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="DigiKey" value="1727-BC817-QR-ND"/>
+      <property name="MF" value="Nexperia"/>
+      <property name="Mouser" value="771-BC817-QR"/>
+      <property name="PN" value="BC817-QR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>952d0a74-b45d-4250-9c76-fb8d79b541e6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="DigiKey" value=""/>
+      <property name="MF" value=""/>
+      <property name="Mouser" value=""/>
+      <property name="PN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0c57299-a2d8-4c04-ba26-5ec8be267f86</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>21K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9144d442-34ee-494b-b115-7f589dd8c235</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ace52a4e-8efa-4e6a-885c-5cb3195224e0</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f47b5797-54eb-43e6-9abf-1e31bbc0f91a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af14bb52-25cc-4465-8973-719a02e650f3</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a0422ca-67dd-49dc-9bc2-1d6a684d5350</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e348a01d-122f-47be-9839-fb0c06bbaf83</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a658453-a643-4991-bc13-d7a0f0fef264</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba4198f6-7a82-4292-a4b9-36ce95b94ade</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f797867-49b0-4551-af8f-37b0eee2db97</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b55d09d1-4919-4038-aa9c-03c6301fb37e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fe5a881-4440-46de-97fd-6a633ff747ef</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e696360b-21dc-4639-9e10-ac013af31eeb</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a12a9fa4-1f58-4081-94b9-ae2a5b758de6</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a937f23-2917-4ce9-a652-24bef65274d4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8253ff48-b496-4b42-bb80-b326b4543854</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>870f3ae5-ea71-400d-af05-8d487035747c</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feb9de31-8cca-4030-ae2a-533667094b68</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c221d2e1-6283-400e-a4c7-ee28d731c4b5</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f02ade69-03ff-4c66-bae5-26c798aaa7b0</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b73caca-d1e9-403a-9ff1-2ec9ec6e2d4a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50a7a30a-01c4-4e1f-9167-977fdf6ee585</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb818ec0-6754-49af-8023-34fad78b08fa</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BC65</value>
+      <footprint>SR_RF_Module:BC65</footprint>
+      <datasheet>https://www.quectel.com/product/lpwa-bc65-nb-iot/</datasheet>
+      <fields>
+        <field name="DigiKey">2958-BC65PB-04-STDTR-ND</field>
+        <field name="MF">Quectel</field>
+        <field name="Mouser">277-BC65PB-04-STD</field>
+        <field name="PN">BC65PB-04-STD</field>
+      </fields>
+      <libsource lib="SR_RF_Module" part="BC65" description=""/>
+      <property name="MF" value="Quectel"/>
+      <property name="PN" value="BC65PB-04-STD"/>
+      <property name="DigiKey" value="2958-BC65PB-04-STDTR-ND"/>
+      <property name="Mouser" value="277-BC65PB-04-STD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8027d3ff-877a-4c18-b2ba-dda961901681</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SRV05-4HTG-D</value>
+      <footprint>SR_Package_SOT:TSOT-23-6</footprint>
+      <datasheet>https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-srv05-4htg-d-datasheet?assetguid=d716fc4c-0484-4b67-97d8-cf719554d89a</datasheet>
+      <fields>
+        <field name="DigiKey">SRV05-4HTG-DTR-ND</field>
+        <field name="MF">LittleFuse</field>
+        <field name="Mouser">576-SRV05-4HTG-D</field>
+        <field name="PN">SRV05-4HTG-D</field>
+      </fields>
+      <libsource lib="SR_Protection" part="SRV05-4HTG-D" description=""/>
+      <property name="MF" value="LittleFuse"/>
+      <property name="PN" value="SRV05-4HTG-D"/>
+      <property name="DigiKey" value="SRV05-4HTG-DTR-ND"/>
+      <property name="Mouser" value="576-SRV05-4HTG-D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IC_002 - Acoustic Nb-IoT Daughter Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>692a7ecb-f2fa-448f-be28-1c4555161cf9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x10_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="SR_Connectors" part="104224-0820">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">104224-0820</field>
+        <field name="Footprint">SR_Connectors:MOLEX_104224-0820</field>
+        <field name="MF">Molex</field>
+        <field name="PN">104224-0820</field>
+      </fields>
+      <pins>
+        <pin num="G1" name="GND" type="power_in"/>
+        <pin num="G2" name="GND" type="power_in"/>
+        <pin num="G3" name="GND" type="power_in"/>
+        <pin num="G4" name="GND" type="power_in"/>
+        <pin num="S1" name="VCC" type="power_in"/>
+        <pin num="S2" name="RST" type="input"/>
+        <pin num="S3" name="CLK" type="input"/>
+        <pin num="S4" name="GND" type="power_in"/>
+        <pin num="S5" name="VPP" type="power_in"/>
+        <pin num="S6" name="I/O" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SR_Protection" part="SRV05-4HTG-D">
+      <docs>https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-srv05-4htg-d-datasheet?assetguid=d716fc4c-0484-4b67-97d8-cf719554d89a</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4HTG-D</field>
+        <field name="Footprint">SR_Package_SOT:TSOT-23-6</field>
+        <field name="Datasheet">https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-array-srv05-4htg-d-datasheet?assetguid=d716fc4c-0484-4b67-97d8-cf719554d89a</field>
+        <field name="MF">LittleFuse</field>
+        <field name="PN">SRV05-4HTG-D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O3" type="passive"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="I/O4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SR_RF_Module" part="BC65">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BC65</field>
+        <field name="Footprint">SR_RF_Module:BC65</field>
+        <field name="MF">Quectel</field>
+        <field name="PN">BC65</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="RESERVED_1" type="no_connect"/>
+        <pin num="3" name="RESERVED_1" type="no_connect"/>
+        <pin num="4" name="RESERVED_1" type="no_connect"/>
+        <pin num="5" name="RESERVED_1" type="no_connect"/>
+        <pin num="6" name="RESERVED_1" type="no_connect"/>
+        <pin num="7" name="~{PWRKEY}" type="input"/>
+        <pin num="8" name="RESERVED_1" type="no_connect"/>
+        <pin num="9" name="ADC" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="USIM_DATA" type="bidirectional"/>
+        <pin num="12" name="USIM_RST" type="output"/>
+        <pin num="13" name="USIM_CLK" type="output"/>
+        <pin num="14" name="USIM_VDD" type="power_in"/>
+        <pin num="15" name="~{RESET}" type="input"/>
+        <pin num="16" name="NETLIGHT" type="output"/>
+        <pin num="17" name="MAIN_TXD" type="output"/>
+        <pin num="18" name="MAIN_RXD" type="input"/>
+        <pin num="19" name="PSM_EINT" type="input"/>
+        <pin num="20" name="RI" type="output"/>
+        <pin num="21" name="RESERVED_1" type="no_connect"/>
+        <pin num="22" name="RESERVED_1" type="no_connect"/>
+        <pin num="23" name="RESERVED_1" type="no_connect"/>
+        <pin num="24" name="VDD_EXT" type="power_in"/>
+        <pin num="25" name="RESERVED_1" type="no_connect"/>
+        <pin num="26" name="RESERVED_1" type="no_connect"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="AUX_RXD" type="input"/>
+        <pin num="29" name="AUX_TXD" type="output"/>
+        <pin num="30" name="RESERVED_1" type="no_connect"/>
+        <pin num="31" name="RESERVED_1" type="no_connect"/>
+        <pin num="32" name="RESERVED_1" type="no_connect"/>
+        <pin num="33" name="RESERVED_1" type="no_connect"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="ANT_RF" type="bidirectional"/>
+        <pin num="36" name="GND" type="power_in"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="DBG_RXD" type="input"/>
+        <pin num="39" name="DBG_TXD" type="output"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="GND" type="power_in"/>
+        <pin num="42" name="VBAT" type="power_in"/>
+        <pin num="43" name="VBAT" type="power_in"/>
+        <pin num="44" name="RESERVED_2" type="no_connect"/>
+        <pin num="45" name="RESERVED_2" type="no_connect"/>
+        <pin num="46" name="RESERVED_2" type="no_connect"/>
+        <pin num="47" name="RESERVED_2" type="no_connect"/>
+        <pin num="48" name="RESERVED_2" type="no_connect"/>
+        <pin num="49" name="RESERVED_2" type="no_connect"/>
+        <pin num="50" name="RESERVED_2" type="no_connect"/>
+        <pin num="51" name="RESERVED_2" type="no_connect"/>
+        <pin num="52" name="RESERVED_2" type="no_connect"/>
+        <pin num="53" name="RESERVED_2" type="no_connect"/>
+        <pin num="54" name="RESERVED_2" type="no_connect"/>
+        <pin num="55" name="RESERVED_2" type="no_connect"/>
+        <pin num="56" name="RESERVED_2" type="no_connect"/>
+        <pin num="57" name="RESERVED_2" type="no_connect"/>
+        <pin num="58" name="RESERVED_2" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="SR_Connectors">
+      <uri>${SR_KICAD_LIB}/SR_Connectors.kicad_sym</uri>
+    </library>
+    <library logical="SR_Protection">
+      <uri>${SR_KICAD_LIB}/SR_Protection.kicad_sym</uri>
+    </library>
+    <library logical="SR_RF_Module">
+      <uri>${SR_KICAD_LIB}/SR_RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="+3V8">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="3" name="/BATT_CONN">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="/BATT_NEG">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="5" name="/BC_ADC">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="ADC" pintype="input"/>
+    </net>
+    <net code="6" name="/BC_AUX_RXD">
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="AUX_RXD" pintype="input"/>
+    </net>
+    <net code="7" name="/BC_AUX_TXD">
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="AUX_TXD" pintype="output"/>
+    </net>
+    <net code="8" name="/BC_DBG_RXD">
+      <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="DBG_RXD" pintype="input"/>
+    </net>
+    <net code="9" name="/BC_DBG_TXD">
+      <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="DBG_TXD" pintype="output"/>
+    </net>
+    <net code="10" name="/BC_MAIN_RXD">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="MAIN_RXD" pintype="input"/>
+    </net>
+    <net code="11" name="/BC_MAIN_TXD">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="MAIN_TXD" pintype="output"/>
+    </net>
+    <net code="12" name="/BC_NETLIGHT">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="NETLIGHT" pintype="output"/>
+    </net>
+    <net code="13" name="/BC_PSM_ENIT">
+      <node ref="Q9" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PSM_EINT" pintype="input"/>
+    </net>
+    <net code="14" name="/BC_RI">
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="RI" pintype="output"/>
+    </net>
+    <net code="15" name="/BC_~{PWRKEY}">
+      <node ref="Q10" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="~{PWRKEY}" pintype="input"/>
+    </net>
+    <net code="16" name="/BC_~{RESET}">
+      <node ref="Q11" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="17" name="/EXT_GPIO1">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/EXT_GPIO2">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="19" name="/EXT_GPIO3">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/EXT_GPIO4">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/EXT_GPIO5">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/EXT_GPIO6">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/USIM_CLK">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J2" pin="S3" pinfunction="CLK" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="USIM_CLK" pintype="output"/>
+      <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="24" name="/USIM_DATA">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J2" pin="S6" pinfunction="I/O" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="USIM_DATA" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="25" name="/USIM_RST">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J2" pin="S2" pinfunction="RST" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="USIM_RST" pintype="output"/>
+      <node ref="U2" pin="4" pinfunction="I/O3" pintype="passive"/>
+    </net>
+    <net code="26" name="/USIM_VDD">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J2" pin="S1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="USIM_VDD" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="27" name="/VDD_EXT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="VDD_EXT" pintype="power_in"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+      <node ref="J2" pin="G1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="G2" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="G3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="G4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="S4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="36" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="41" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="29" name="GNDS">
+      <node ref="J3" pin="MP" pinfunction="MountPin" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(J1-In)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J4-Pin_2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J4-Pin_3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J5-Pin_2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J5-Pin_3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q1-B)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(Q2-B)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(Q3-B)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q4-B)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q5-B)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(Q6-B)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(Q7-B)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(Q8-B)">
+      <node ref="Q8" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(Q9-B)">
+      <node ref="Q9" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q10-B)">
+      <node ref="Q10" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(Q11-B)">
+      <node ref="Q11" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(U1-ANT_RF)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="ANT_RF" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="Net-(U2-I{slash}O4)">
+      <node ref="U2" pin="6" pinfunction="I/O4" pintype="passive"/>
+    </net>
+    <net code="50" name="unconnected-(J2-VPP-PadS5)">
+      <node ref="J2" pin="S5" pinfunction="VPP" pintype="power_in"/>
+    </net>
+    <net code="51" name="unconnected-(U1-RESERVED_1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-RESERVED_1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-RESERVED_1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-RESERVED_1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-RESERVED_1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-RESERVED_1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-RESERVED_1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-RESERVED_1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-RESERVED_1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-RESERVED_1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-RESERVED_1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-RESERVED_1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-RESERVED_1-Pad31)">
+      <node ref="U1" pin="31" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-RESERVED_1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-RESERVED_1-Pad33)">
+      <node ref="U1" pin="33" pinfunction="RESERVED_1" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-RESERVED_2-Pad44)">
+      <node ref="U1" pin="44" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-RESERVED_2-Pad45)">
+      <node ref="U1" pin="45" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-RESERVED_2-Pad46)">
+      <node ref="U1" pin="46" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-RESERVED_2-Pad47)">
+      <node ref="U1" pin="47" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-RESERVED_2-Pad48)">
+      <node ref="U1" pin="48" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-RESERVED_2-Pad49)">
+      <node ref="U1" pin="49" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-RESERVED_2-Pad50)">
+      <node ref="U1" pin="50" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-RESERVED_2-Pad51)">
+      <node ref="U1" pin="51" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-RESERVED_2-Pad52)">
+      <node ref="U1" pin="52" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-RESERVED_2-Pad53)">
+      <node ref="U1" pin="53" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-RESERVED_2-Pad54)">
+      <node ref="U1" pin="54" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-RESERVED_2-Pad55)">
+      <node ref="U1" pin="55" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-RESERVED_2-Pad56)">
+      <node ref="U1" pin="56" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U1-RESERVED_2-Pad57)">
+      <node ref="U1" pin="57" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U1-RESERVED_2-Pad58)">
+      <node ref="U1" pin="58" pinfunction="RESERVED_2" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

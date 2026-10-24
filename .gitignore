@@ -1,0 +1,14 @@
+# KiCad
+*-backups/
+fp-info-cache
+*.kicad_prl
+*.lck
+_autosave-*
+~*
+
+# Updater build artefacts
+uploader/venv/
+uploader/build/
+uploader/dist/
+uploader/*.bin
+__pycache__/
